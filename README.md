@@ -1,3 +1,5 @@
+**Project: SkillBridge Chatbot Server**
+
 The SkillBridge Chatbot Server is the backend API powering the SkillBridge AI platform — a smart assistant designed for students, freelancers, and project developers. It uses Flask for the backend, integrates with Groq/OpenAI for LLM responses, and optionally connects to Firebase and a vector database (FAISS/Pinecone) for advanced RAG-based conversations.
 
 This server can:
@@ -12,7 +14,7 @@ Serve a built frontend (React) if deployed together
 
 Connect with a freelancer dashboard for live support
 
-🚀 Features
+**🚀 Features**
 ✅ RESTful Flask API
 
 ✅ LLM integration via Groq/OpenAI API
@@ -29,7 +31,7 @@ Connect with a freelancer dashboard for live support
 
 ✅ Railway/Render/Local deployment-ready
 
-📂 Folder Structure
+**📂 Folder Structure**
 
 backend/
 ├── app.py                # Main Flask server
@@ -43,7 +45,7 @@ backend/
 
 
 
-📁 Sample API Endpoints
+**📁 Sample API Endpoints**
 
 | Method | Endpoint           | Description                   |
 | ------ | ------------------ | ----------------------------- |
@@ -53,7 +55,7 @@ backend/
 
 
 
-🧪 Technologies Used
+**🧪 Technologies Used**
 
 Python 3.10+
 Flask
@@ -63,7 +65,10 @@ FAISS (for RAG)
 React (Vite + ShadCN)
 Tailwind CSS
 Railway / Render
-🛠 Setup Instructions
+
+
+**🛠 Setup Instructions**
+
 Clone the repo:
 git clone https://github.com/ahmed-1818/backend.git
 cd backend
